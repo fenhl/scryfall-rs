@@ -36,7 +36,7 @@ pub use self::preview::Preview;
 pub use self::price::Price;
 pub use self::produced_mana::{ProducedMana, UnfinityMana};
 pub use self::rarity::Rarity;
-pub use self::related_card::RelatedCard;
+pub use self::related_card::{Component, RelatedCard};
 use crate::format::Format;
 use crate::list::{List, ListIter};
 use crate::ruling::Ruling;

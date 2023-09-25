@@ -28,6 +28,7 @@ pub struct RelatedCard {
 }
 
 /// The kind of related card.
+#[allow(missing_docs)]
 #[derive(Serialize, Deserialize, Copy, Clone, Eq, PartialEq, Hash, Debug)]
 #[serde(rename_all = "snake_case")]
 #[non_exhaustive]
